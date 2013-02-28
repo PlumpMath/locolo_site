@@ -8,13 +8,13 @@ body {
 
 .nav-header {
     width: 100%;
-    min-width: 1152px;
     background-color: #fff;
     border-bottom: 1px solid #ddd;
 }
 
 .logo {
-    background-image: url('logo.png');
+    background-image: url('./images/logo.png');
+    background-repeat: no-repeat;
     width: 289px;
     height: 68px;
 }
@@ -24,6 +24,8 @@ body {
     margin-right: auto;
     margin-left: auto;
     background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
 }
 
 .wrapper{
@@ -47,16 +49,22 @@ body {
 
 .heading-with-hr hr{
     display: block;
-    width: 30px;
-    margin: 0 auto 30px auto;
+    width: 2em;
+    margin: 0 auto 2em auto;
 }
 
 .what-is-locolo{
     display: block;
     margin: 0 auto 0 auto;
-    width: 800px;
+    width: 80%;
     font-size: 21px;
     line-height: 31px;
     color: #898d90;
     text-align: center;
+}
+
+.the-space{
+   width: 60%;
+   margin: 0 auto 0 auto;
+   padding-top: 2em;
 }

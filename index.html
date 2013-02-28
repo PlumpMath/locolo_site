@@ -1,6 +1,19 @@
 <html>
   <head>
-    <link href="./styles.css" media="screen" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="flexslider.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen, handheld" />
+    <link rel="stylesheet" type="text/css" href="enhanced.css" media="screen  and (min-width: 40.5em)" />
+    <!--[if (lt IE 9)&(!IEMobile)]>
+    <link rel="stylesheet" type="text/css" href="enhanced.css" />
+    <![endif]-->
+    <script src="scripts/jquery-1.8.1.min.js"></script>
+    <script src="scripts/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(window).load(function() {
+      $('.flexslider').flexslider();
+      });
+</script>
   </head>
 
 <body>
@@ -16,6 +29,20 @@
       <p class="what-is-locolo">
         Creating a space for community, creativity, and serendipity
       </p>
+    </div>
+  </div>
+  <div class="the-space-containter">
+    <div class="the-space">
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <img src="images/building.jpg" />
+          </li>
+          <li>
+            <img src="images/gallery.jpg" />
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </body>
