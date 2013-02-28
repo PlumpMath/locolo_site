@@ -1,0 +1,62 @@
+
+body {
+    background-color: #fff
+    font-family: Georgia;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.nav-header {
+    width: 100%;
+    min-width: 1152px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    background-image: url('logo.png');
+    width: 289px;
+    height: 68px;
+}
+
+.main-container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f9f9f9;
+}
+
+.wrapper{
+    width: 100%;
+    border-top: 1px solid #ddd;
+}
+
+
+.heading-with-hr h1{
+    width: 100%;
+    color: #4a484c;
+    text-align: center;
+    font-size: 33px;
+    line-height: normal;
+    text-transform: none;
+    display: block;
+    padding-bottom: 15px;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+
+.heading-with-hr hr{
+    display: block;
+    width: 30px;
+    margin: 0 auto 30px auto;
+}
+
+.what-is-locolo{
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 800px;
+    font-size: 21px;
+    line-height: 31px;
+    color: #898d90;
+    text-align: center;
+}
