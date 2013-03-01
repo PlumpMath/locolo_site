@@ -15,6 +15,7 @@ body {
 .logo img {
     max-width: 100%;
     height: auto;
+    padding-bottom: 1em;
 }
 
 .main-container{
@@ -36,11 +37,9 @@ body {
     width: 100%;
     color: #4a484c;
     text-align: center;
-    font-size: 33px;
-    line-height: normal;
     text-transform: none;
     display: block;
-    padding-bottom: 15px;
+    padding-bottom: .5em;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
 }
@@ -48,7 +47,7 @@ body {
 .heading-with-hr hr{
     display: block;
     width: 2em;
-    margin: 0 auto 2em auto;
+    margin: 0 auto 1.5em auto;
 }
 
 .what-is-locolo{
@@ -72,4 +71,20 @@ body {
     color: #4a484c;
     font-size: 18px;
     text-align: center;
+}
+
+.membership-container {
+    display: block;
+    background-color: #1e0c29;
+    text-align: center;
+    width: 100%;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	background: #fc2e5a;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
 }
