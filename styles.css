@@ -68,19 +68,29 @@ body {
 
 
 .membership-container {
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
+
+    background-color: #1e0c29;
 }
 
 .member-section {
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
+    display: block;
+    margin: 1em auto 1em auto;
+    width: 90%;
+    font-size: 21px;
+    line-height: 31px;
+    color: #898d90;
+    text-align: center;
+    background-color: #1e0c29;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
 .member{
-    width: 22%;
-    margin: 1em;
+    width: 17%;
+    margin: .1em;
     color: #4a484c;
     text-align: center;
     float: left;
@@ -89,7 +99,6 @@ body {
     -webkit-border-radius: 20px;
     -khtml-border-radius: 20px;
     border-radius: 20px;
-    min-height: 20em;
 }
 
 .top-section{
@@ -137,7 +146,7 @@ body {
 
 .membership-description{
     color: #90cb6f;
-    margin-bottom: 15px;
+    margin: 1px 1px 15px 1px;
 
 }
 
@@ -146,5 +155,24 @@ body {
     font-size: 14px;
     margin: 0 0 11px;
 
+}
+
+.btn {
+    color: rgb(144, 203, 111);
+    cursor: pointer;
+    display: block;
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    height: 13px;
+    left: 50%;
+    padding-bottom: 3px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 3px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 0px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    word-spacing: 0px;
 }
 
