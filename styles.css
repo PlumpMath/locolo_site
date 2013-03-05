@@ -89,7 +89,6 @@ body {
     margin-left: auto;
     background-color: #1e0c29;
     display: table;
-    padding-bottom: 10px;
 }
 
 .member{
@@ -99,6 +98,7 @@ body {
     text-align: center;
     display: table-cell;
     border-right: 1px solid #fff;
+    padding-bottom: 10px;
 }
 
 .top-section{
