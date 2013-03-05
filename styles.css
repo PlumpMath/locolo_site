@@ -3,7 +3,6 @@ body {
     background-color: #fff
     font-family: Georgia;
     font-size: 16px;
-    line-height: 22px;
 }
 
 .nav-header {
@@ -70,8 +69,6 @@ body {
 .membership-container {
 
     background-color: #1e0c29;
-    display: table-row;
-
 }
 
 .member-section {
@@ -88,7 +85,6 @@ body {
     margin-right: auto;
     margin-left: auto;
     background-color: #1e0c29;
-    display: table;
 }
 
 .member{
@@ -96,9 +92,9 @@ body {
     margin: .1em;
     color: #4a484c;
     text-align: center;
-    display: table-cell;
-    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
     padding-bottom: 10px;
+    width: auto;
 }
 
 .top-section{

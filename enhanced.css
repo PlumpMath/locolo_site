@@ -1,0 +1,35 @@
+.membership-container {
+
+    background-color: #1e0c29;
+    display: table-row;
+}
+
+
+
+.member-section {
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    display: block;
+    margin: 1em auto 1em auto;
+    width: 90%;
+    font-size: 21px;
+    line-height: 31px;
+    color: #898d90;
+    text-align: center;
+    background-color: #1e0c29;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #1e0c29;
+    display: table;
+}
+
+.member{
+    background-color: #1e0c29;
+    margin: .1em;
+    color: #4a484c;
+    text-align: center;
+    border-right: 1px solid #fff;
+    padding-bottom: 10px;
+    width: auto;
+    display: table-cell;
+}
