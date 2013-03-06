@@ -65,6 +65,10 @@ body {
    padding-top: 2em;
 }
 
+.idea{
+   text-align: center;
+}
+
 
 .membership-container {
 
@@ -78,7 +82,7 @@ body {
     margin: 1em auto 1em auto;
     width: 90%;
     font-size: 21px;
-    line-height: 31px;
+    line-height: 20px;
     color: #898d90;
     text-align: center;
     background-color: #1e0c29;
@@ -93,7 +97,7 @@ body {
     color: #4a484c;
     text-align: center;
     border-bottom: 1px solid #fff;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     width: auto;
 }
 
@@ -159,7 +163,7 @@ body {
     display: block;
     font-size: 10px;
     text-transform: uppercase;
-    width: 50%;
+    width: 25%;
     -webkit-box-shadow: rgba(0, 0, 0, 0.0470588) 0px 2px 0px 0px;
     background-color: rgb(144, 203, 111);
     border-bottom-color: rgb(255, 255, 255);
