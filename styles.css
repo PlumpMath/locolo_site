@@ -1,7 +1,7 @@
 
 body {
-    background-color: #fff
-    font-family: Georgia;
+    background-color: #fff;
+    font-family:  "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
 }
 
@@ -15,6 +15,13 @@ body {
     max-width: 100%;
     height: auto;
     padding-bottom: 1em;
+}
+
+address{
+    font-size: 15px;
+    font-style: normal;
+    padding-bottom: 7px;
+    color: #4a484c;
 }
 
 .main-container{
