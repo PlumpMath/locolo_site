@@ -1,7 +1,10 @@
+.the-space{
+    width: 50%;
+}
+
 .membership-container {
     display: table-row;
 }
-
 
 
 .member-section {
