@@ -56,7 +56,7 @@ address{
     margin: 0 auto 1.5em auto;
 }
 
-.what-is-locolo{
+.what-is-locolo, .memberlist-title{
     display: block;
     margin: 0 auto 0 auto;
     width: 90%;
@@ -194,11 +194,21 @@ address{
     color: rgb(255, 255, 255);
 }
 
+.memberlist {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f9f9f9;
+    padding-bottom: 21px;
+    text-align: center;
+    color: #4a484c;
+}
+
 .bottom {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    background-color: #f9f9f9;
+    background-color: #fff;
     border-bottom: 1px solid #ddd;
     border-top: 1px solid #ddd;
     padding-bottom: 21px;
@@ -225,6 +235,33 @@ address{
 
 .green{
     background-color:  #90cb6f;
+}
+
+.memberlist-title{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #4a484c;
+}
+
+.title{
+    font-style: italic;
+    font-size: 13px;
+}
+.name{
+    font-size: 13px;
+}
+
+.person-container {
+    display: block;
+}
+
+.person-row {
+}
+
+
+.person {
+    width: auto;
+    margin: 10px;
 }
 
 

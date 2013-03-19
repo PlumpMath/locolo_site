@@ -24,3 +24,19 @@
     left: 25%;
     width: 50%;
 }
+
+.person-row {
+    display: table-row;
+}
+
+
+.person-container {
+    display: table;
+    width: 100%;
+}
+
+.person{
+    border-right: 1px solid #fff;
+    display: table-cell;
+    position: relative;
+}
