@@ -264,4 +264,11 @@ address{
     margin: 10px;
 }
 
+.tour{
+    text-align: center;
+    font-weight: bold;
+    font-size: 27px;
+    padding: 33px;
+}
+
 
